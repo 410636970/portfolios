@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=D:\wei\work\3junior\HDL\ooo4\s1063697Lab4\s1063697_Lab4.ncd
-OUTFILE=D:\wei\work\3junior\HDL\ooo4\s1063697Lab4\s1063697_Lab4.bit
-FAMILY=Spartan3E
-PART=xc3s100e-5cp132
-WORKINGDIR=D:\wei\work\3junior\HDL\ooo4\s1063697Lab4
-LICENSE=WebPack
-USER_INFO=211605422_0_0_074

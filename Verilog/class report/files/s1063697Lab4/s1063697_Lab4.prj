@@ -1,4 +1,0 @@
-verilog work "add3.v"
-verilog work "../x7seg.v"
-verilog work "Binary2BCD.v"
-verilog work "s1063697_Lab4.v"
