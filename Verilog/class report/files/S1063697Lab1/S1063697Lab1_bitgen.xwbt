@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\student\Desktop\ooo\S1063697Lab1\S1063697Lab1.ncd
-OUTFILE=C:\Users\student\Desktop\ooo\S1063697Lab1\S1063697Lab1.bit
-FAMILY=Spartan3E
-PART=xc3s100e-4cp132
-WORKINGDIR=C:\Users\student\Desktop\ooo\S1063697Lab1
-LICENSE=WebPack
-USER_INFO=211605422_0_0_074
