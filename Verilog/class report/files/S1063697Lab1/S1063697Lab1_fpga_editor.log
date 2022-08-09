@@ -1,0 +1,252 @@
+#:C109   
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\student\Desktop\ooo\S1063697Lab1
+#Date/Time:
+#:T   Wed Sep 25 14:22:32 2019
+#------------------------------
+	#Reading S1063697Lab1.ncd...
+	#Loading device for application Rf_Device from file '3s100e.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "S1063697Lab1" is an NCD, version 3.2, device xc3s100e, package cp132, speed -4
+	#Design creation date: 2019.09.25.06.22.20
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+select -k comp 'switch<2>'
+	#4
+unselect -all
+	#5
+select site 'A7'
+	#site "A7",  bonded type = DIFFM,  pad name = PAD11,  pin name = A7  (RPM grid X31Y46)
+	#6
+unselect -all
+	#7
+unselect -all
+	#8
+unselect -all
+	#9
+unselect -all
+	#10
+select site 'VCC_X4Y10'
+	#site "VCC_X4Y10",  type = VCC  (RPM grid X-1Y-1)
+	#11
+unselect -all
+	#12
+unselect -all
+	#13
+unselect -all
+	#14
+select -k comp 'led<1>'
+	#15
+unselect comp 'led<1>'
+	#16
+select -k comp 'led<4>'
+	#17
+unselect comp 'led<4>'
+	#18
+select -k comp 'led<0>'
+	#19
+unselect -all
+	#20
+unselect -all
+	#21
+unselect -all
+	#22
+select -k comp 'led<2>'
+	#23
+unselect comp 'led<2>'
+	#24
+select -k comp 'led<1>'
+	#25
+unselect comp 'led<1>'
+	#26
+select -k comp 'led<0>'
+	#27
+unselect comp 'led<0>'
+	#28
+select -k comp 'led<1>'
+	#29
+unselect comp 'led<1>'
+	#30
+select -k comp 'led<2>'
+	#31
+unselect comp 'led<2>'
+	#32
+select -k comp 'switch<7>'
+	#33
+unselect comp 'switch<7>'
+	#34
+select -k comp 'switch<6>'
+	#35
+unselect -all
+	#36
+select site 'SLICE_X20Y32'
+	#site "SLICE_X20Y32",  type = SLICEM  (RPM grid X45Y34)
+	#37
+unselect -all
+	#38
+select site 'SLICE_X20Y32'
+	#site "SLICE_X20Y32",  type = SLICEM  (RPM grid X45Y34)
+	#39
+post block
+	#40
+unselect -all
+	#41
+unselect -all
+	#42
+unselect -all
+	#43
+unselect -all
+	#44
+unselect -all
+	#45
+unselect -all
+	#46
+select site 'SLICE_X6Y2'
+	#site "SLICE_X6Y2",  type = SLICEM  (RPM grid X17Y4)
+	#47
+unselect -all
+	#48
+select site 'SLICE_X6Y2'
+	#site "SLICE_X6Y2",  type = SLICEM  (RPM grid X17Y4)
+	#49
+post block
+	#50
+unselect -all
+	#51
+select site 'VCC_X4Y14'
+	#site "VCC_X4Y14",  type = VCC  (RPM grid X-1Y-1)
+	#52
+unselect -all
+	#53
+unselect -all
+	#54
+post attr
+	#Getting available speed grades of the device...
+	#Getting available speed grades of the device...
+	#55
+setattr main case_sensitive off
+	#56
+setattr main edit_mode_background_color blue
+	#57
+setattr main case_sensitive off
+	#58
+setattr main edit_mode_background_color black
+	#59
+setattr main case_sensitive off
+	#60
+setattr main read_only_background_color dark_blue
+	#61
+setattr main case_sensitive off
+	#62
+setattr main read_only_background_color dark_red
+	#63
+setattr main case_sensitive off
+	#64
+setattr main read_only_background_color dark_orange
+	#65
+unselect -all
+	#66
+unselect -all
+	#67
+unselect -all
+	#68
+unselect -all
+	#69
+unselect -all
+	#Getting available speed grades of the device...
+	#70
+setattr main case_sensitive off
+	#71
+unpost main
+	#72
+setattr main disable_draw on
+	#73
+setattr layer routes view on
+	#74
+setattr main disable_draw off
+	#Hint: change the visibility of more than one layer at a time by clicking on the apply button, clicking two or more layer buttons, and then clicking on the apply button again.
+	#75
+setattr main disable_draw on
+	#76
+setattr layer ratsnests view on
+	#77
+setattr main disable_draw off
+	#78
+setattr main disable_draw on
+	#79
+setattr layer ratsnests view off
+	#80
+setattr main disable_draw off
+	#81
+setattr main disable_draw on
+	#82
+setattr layer pips view on
+	#83
+setattr main disable_draw off
+	#84
+setattr main disable_draw on
+	#85
+setattr layer pinwires view on
+	#86
+setattr main disable_draw off
+	#87
+setattr main disable_draw on
+	#88
+setattr layer pinwires view off
+	#89
+setattr main disable_draw off
+	#90
+setattr main disable_draw on
+	#91
+setattr layer long_lines view on
+	#92
+setattr main disable_draw off
+	#93
+setattr main disable_draw on
+	#94
+setattr layer long_lines view off
+	#95
+setattr main disable_draw off
+	#96
+setattr main disable_draw on
+	#97
+setattr layer local_lines view on
+	#98
+setattr main disable_draw off
+	#99
+setattr main disable_draw on
+	#100
+setattr layer local_lines view off
+	#101
+setattr main disable_draw off
+	#102
+setattr main disable_draw on
+	#103
+setattr layer switch_boxes view on
+	#104
+setattr main disable_draw off
+	#105
+setattr main disable_draw on
+	#106
+setattr layer components view off
+	#107
+setattr main disable_draw off
+	#108
+setattr main disable_draw on
+	#109
+setattr layer components view on
+	#110
+setattr main disable_draw off
+	#111
+setattr main disable_draw on
+	#112
+setattr layer ratsnests view on
+	#113
+setattr main disable_draw off
