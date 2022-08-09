@@ -1,8 +1,0 @@
-MO ALU_1bit NULL ../ALU_1bit.v vlg21/_a_l_u__1bit.bin 1578551611
-MO ALU_MSB NULL ../ALU_MSB.v vlg53/_a_l_u___m_s_b.bin 1578551611
-MO FA NULL ../FA.v vlg1F/_f_a.bin 1578551611
-MO s1063697_fin1 NULL ../s1063697_fin1.v vlg38/s1063697__fin1.bin 1578551611
-MO x7seg NULL ../x7seg.v vlg6E/x7seg.bin 1578551611
-MO MUX_2x1 NULL ../MUX_2x1.v vlg74/_m_u_x__2x1.bin 1578551611
-MO MUX_4x1 NULL ../MUX_4x1.v vlg26/_m_u_x__4x1.bin 1578551611
-MO MIPS_ALU4 NULL ../MIPS_ALU4.v vlg76/_m_i_p_s___a_l_u4.bin 1578551611
