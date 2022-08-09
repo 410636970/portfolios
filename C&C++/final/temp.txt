@@ -1,0 +1,32 @@
+	//總成績排序
+	/*puts("各科總成績排序： \n");
+	lname[0]="C語言：";
+	lname[1]="Java語言：";
+	lname[2]="英文：";
+	lname[3]="計概：";
+	
+	lscore[0]=clscore;
+	lscore[1]=jlscore;
+	lscore[2]=elscore;
+	lscore[3]=glscore;
+	
+	int i,j;
+	int temp;
+	char ntemp;
+	temp=0;
+	ntemp="";
+	
+	for(i=0;i<4;i++){
+		for(j=0;j<4;j++){
+			if(lscore[j]>lscore[j+1]){
+				temp=lscore[j];
+				lscore[j]=lscore[j+1];
+				lscore[j+1]=temp;
+			
+				ntemp=lname[j];
+				lname[j]=lname[j+1];
+				lname[j+1]=ntemp;
+			}
+		}
+	}
+	printf("%s%d %s%d %s%d %s%d ",lname[0],lscore[0],lname[1],lscore[1],lname[2],lscore[2],lname[3],lscore[3]);*/
