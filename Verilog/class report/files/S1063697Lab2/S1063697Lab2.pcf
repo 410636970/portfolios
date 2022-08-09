@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 29 01:15:53 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Result" LOCATE = SITE "M5" LEVEL 1;
+COMP "Binvert" LOCATE = SITE "G3" LEVEL 1;
+COMP "Operation<0>" LOCATE = SITE "E2" LEVEL 1;
+COMP "Operation<1>" LOCATE = SITE "N3" LEVEL 1;
+COMP "Less" LOCATE = SITE "K3" LEVEL 1;
+COMP "CarryIn" LOCATE = SITE "F3" LEVEL 1;
+COMP "Ainvert" LOCATE = SITE "B4" LEVEL 1;
+COMP "CarryOut" LOCATE = SITE "M11" LEVEL 1;
+COMP "a" LOCATE = SITE "P11" LEVEL 1;
+COMP "b" LOCATE = SITE "L3" LEVEL 1;
+SCHEMATIC END;
+

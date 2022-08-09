@@ -1,0 +1,5 @@
+set -tmpdir "D:/wei/work/3junior/HDL/ooo2/S1063697Lab2/xst/projnav.tmp"
+set -xsthdpdir "D:/wei/work/3junior/HDL/ooo2/S1063697Lab2/xst"
+elaborate
+-ifn MUX_4x1.prj
+-ifmt mixed
