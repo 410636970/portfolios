@@ -1,0 +1,3 @@
+verilog work "x7seg.v"
+verilog work "traffic_light.v"
+verilog work "s1063697_mid.v"

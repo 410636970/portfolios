@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\JV\Desktop\ooo-mid\s1063697_mid\s1050689Mid.ncd
+OUTFILE=C:\Users\JV\Desktop\ooo-mid\s1063697_mid\s1050689Mid.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\JV\Desktop\ooo-mid\s1063697_mid
+LICENSE=WebPack
+USER_INFO=211605422_0_0_074
