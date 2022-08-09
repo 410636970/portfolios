@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\JV\Desktop\ooo-fin1\s1063697_fin1\MIPS_ALU4.ncd
+OUTFILE=C:\Users\JV\Desktop\ooo-fin1\s1063697_fin1\MIPS_ALU4.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\JV\Desktop\ooo-fin1\s1063697_fin1
+LICENSE=WebPack
+USER_INFO=211605422_0_0_074

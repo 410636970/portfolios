@@ -1,0 +1,8 @@
+verilog work "../MUX_4x1.v"
+verilog work "../MUX_2x1.v"
+verilog work "../FA.v"
+verilog work "../ALU_MSB.v"
+verilog work "../ALU_1bit.v"
+verilog work "../x7seg.v"
+verilog work "../MIPS_ALU4.v"
+verilog work "../s1063697_fin1.v"

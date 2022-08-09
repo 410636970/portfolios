@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo-fin1/s1063697_fin1/MIPS_ALU4.xst" -ofn "C:/Users/JV/Desktop/ooo-fin1/s1063697_fin1/MIPS_ALU4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 MIPS_ALU4.ngc MIPS_ALU4.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o MIPS_ALU4_map.ncd MIPS_ALU4.ngd MIPS_ALU4.pcf 
+par -w -intstyle ise -ol high -t 1 MIPS_ALU4_map.ncd MIPS_ALU4.ncd MIPS_ALU4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPS_ALU4.twx MIPS_ALU4.ncd -o MIPS_ALU4.twr MIPS_ALU4.pcf 
+bitgen -intstyle ise -f MIPS_ALU4.ut MIPS_ALU4.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo-fin1/s1063697_fin1/MIPS_ALU4.xst" -ofn "C:/Users/JV/Desktop/ooo-fin1/s1063697_fin1/MIPS_ALU4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 MIPS_ALU4.ngc MIPS_ALU4.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o MIPS_ALU4_map.ncd MIPS_ALU4.ngd MIPS_ALU4.pcf 
+par -w -intstyle ise -ol high -t 1 MIPS_ALU4_map.ncd MIPS_ALU4.ncd MIPS_ALU4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPS_ALU4.twx MIPS_ALU4.ncd -o MIPS_ALU4.twr MIPS_ALU4.pcf 
+bitgen -intstyle ise -f MIPS_ALU4.ut MIPS_ALU4.ncd 
