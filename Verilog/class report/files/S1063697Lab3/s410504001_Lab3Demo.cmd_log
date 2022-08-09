@@ -1,0 +1,251 @@
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.xst" -ofn "C:/Users/JV/Desktop/ooo3/S1063697Lab3/s410504001_Lab3Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-5 s410504001_Lab3Demo.ngc s410504001_Lab3Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ngd s410504001_Lab3Demo.pcf 
+par -w -intstyle ise -ol high -t 1 s410504001_Lab3Demo_map.ncd s410504001_Lab3Demo.ncd s410504001_Lab3Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml s410504001_Lab3Demo.twx s410504001_Lab3Demo.ncd -o s410504001_Lab3Demo.twr s410504001_Lab3Demo.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f s410504001_Lab3Demo.ut s410504001_Lab3Demo.ncd 
